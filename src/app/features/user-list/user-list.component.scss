@@ -1,0 +1,44 @@
+.user-list-container {
+  max-width: 600px;
+  margin: 2rem auto;
+
+  h1, mat-card-title {
+    font-size: 3.125rem;
+    color: var(--gray-900);
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: -0.125rem;
+    margin: 1.75rem 0;
+    font-family: "Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol";
+  }
+
+  mat-card {
+    padding: 1rem;
+    background-color: #fafafa;
+
+    mat-form-field.search-field {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+
+    mat-list {
+      mat-list-item {
+        margin-bottom: 0.5rem;
+        border-bottom: 1px solid #e0e0e0;
+
+        .email {
+          font-size: 0.875rem;
+          color: #616161;
+        }
+      }
+    }
+
+    .reload-button {
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+  }
+}
